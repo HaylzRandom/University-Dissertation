@@ -1,0 +1,57 @@
+@media print {
+    .noprint { display: none; }
+    .printcolour { color: black; }
+    .padout { padding: 1em 0em 1em 0em; }
+}
+
+body {
+	background-color:#FFEBCD;
+}
+
+h1 {
+	color:#2F4F4F;
+	text-align:center;
+	font-family:"Arial"
+}
+
+h3 {
+	color:#2F4F4F;
+	text-align:left;
+	font-family:"Arial"
+}
+
+h4 {
+	color:#2F4F4F;
+	text-align:left;
+	font-family:"Arial"
+}
+
+p {
+	font-family:"Arial";
+	font-size:14px;
+	color:#2F4F4F;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing: 0; 
+	empty-cells:show;
+	border-style:inset;
+}
+
+table,th,td {
+	border:2px solid black;
+	font-family:"Arial";
+		padding:10px;
+}
+
+th,td {
+	color:#2F4F4F;
+
+}
+
+caption {
+	font-family:"Arial";
+	color:#2F4F4F;
+	caption-side:top;
+}
